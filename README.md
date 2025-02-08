@@ -8,9 +8,9 @@ This project is built using Angular, Bootstrap, and Kendo UI. It follows best pr
 
 Implement UI components with Kendo UI.
 
-Use Bootstrap for responsive design.
-
-Follow Angular best practices for modular development.
+## Use Bootstrap for responsive design.
+## Use ControlValueAccessor Enhanced performance
+## Follow Angular best practices for modular development.
 
 
 🚀 Performance
