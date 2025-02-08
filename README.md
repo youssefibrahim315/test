@@ -1,4 +1,4 @@
-📌 Angular Project
+📌 Angular V 18.2.14 Project
 
 📖 Description
 
