@@ -1,0 +1,23 @@
+<kendo-listview
+      [data]="data"
+      [loading]="loading"
+      [itemStyle]="{
+        display: 'inline-flex'
+      }"
+      [pageable]="showPager"
+      [pageSize]="pageSize"
+      [skip]="skip"
+      (pageChange)="handlePageChange($event)"
+    >
+      <ng-template kendoListViewItemTemplate let-dataItem="dataItem">
+        <div class="product">
+            <img
+              class="image"
+              src="favicon.ico"
+              alt="{{ dataItem.name }} image"
+            />
+            <h3 class="name">{{ dataItem.name }}</h3>
+            <p class="price">{{ dataItem.price | currency }}</p>
+          </div>
+              </ng-template>
+    </kendo-listview>

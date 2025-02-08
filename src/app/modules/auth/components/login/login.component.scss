@@ -1,0 +1,15 @@
+  .background{
+    background: #6a418a;
+    // background-image: url('./../../../../../assets/images/background.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.full-img-container {
+  height: 100vh;
+  // width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}

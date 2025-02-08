@@ -1,0 +1,236 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Wireless Mouse",
+      "description": "Ergonomic wireless mouse with fast response time.",
+      "price": "25.99"
+    },
+    {
+      "id": "2",
+      "name": "Mechanical Keyboard",
+      "description": "RGB mechanical keyboard with customizable keys.",
+      "price": "79.99"
+    },
+    {
+      "id": "3",
+      "name": "Gaming Monitor",
+      "description": "27-inch gaming monitor with 144Hz refresh rate.",
+      "price": "299.99"
+    },
+    {
+      "id": "4",
+      "name": "USB-C Hub",
+      "description": "Multi-port USB-C hub with HDMI and Ethernet.",
+      "price": "45.50"
+    },
+    {
+      "id": "5",
+      "name": "Bluetooth Headphones",
+      "description": "Noise-canceling over-ear Bluetooth headphones.",
+      "price": "120.00"
+    },
+    {
+      "id": "1",
+      "name": "Wireless Mouse",
+      "description": "Ergonomic wireless mouse with fast response time.",
+      "price": "25.99"
+    },
+    {
+      "id": "2",
+      "name": "Mechanical Keyboard",
+      "description": "RGB mechanical keyboard with customizable keys.",
+      "price": "79.99"
+    },
+    {
+      "id": "3",
+      "name": "Gaming Monitor",
+      "description": "27-inch gaming monitor with 144Hz refresh rate.",
+      "price": "299.99"
+    },
+    {
+      "id": "4",
+      "name": "USB-C Hub",
+      "description": "Multi-port USB-C hub with HDMI and Ethernet.",
+      "price": "45.50"
+    },
+    {
+      "id": "5",
+      "name": "Bluetooth Headphones",
+      "description": "Noise-canceling over-ear Bluetooth headphones.",
+      "price": "120.00"
+    },
+    {
+      "id": "1",
+      "name": "Wireless Mouse",
+      "description": "Ergonomic wireless mouse with fast response time.",
+      "price": "25.99"
+    },
+    {
+      "id": "2",
+      "name": "Mechanical Keyboard",
+      "description": "RGB mechanical keyboard with customizable keys.",
+      "price": "79.99"
+    },
+    {
+      "id": "3",
+      "name": "Gaming Monitor",
+      "description": "27-inch gaming monitor with 144Hz refresh rate.",
+      "price": "299.99"
+    },
+    {
+      "id": "4",
+      "name": "USB-C Hub",
+      "description": "Multi-port USB-C hub with HDMI and Ethernet.",
+      "price": "45.50"
+    },
+    {
+      "id": "5",
+      "name": "Bluetooth Headphones",
+      "description": "Noise-canceling over-ear Bluetooth headphones.",
+      "price": "120.00"
+    },
+    {
+      "id": "1",
+      "name": "Wireless Mouse",
+      "description": "Ergonomic wireless mouse with fast response time.",
+      "price": "25.99"
+    },
+    {
+      "id": "2",
+      "name": "Mechanical Keyboard",
+      "description": "RGB mechanical keyboard with customizable keys.",
+      "price": "79.99"
+    },
+    {
+      "id": "3",
+      "name": "Gaming Monitor",
+      "description": "27-inch gaming monitor with 144Hz refresh rate.",
+      "price": "299.99"
+    },
+    {
+      "id": "4",
+      "name": "USB-C Hub",
+      "description": "Multi-port USB-C hub with HDMI and Ethernet.",
+      "price": "45.50"
+    },
+    {
+      "id": "5",
+      "name": "Bluetooth Headphones",
+      "description": "Noise-canceling over-ear Bluetooth headphones.",
+      "price": "120.00"
+    },
+    {
+      "id": "1",
+      "name": "Wireless Mouse",
+      "description": "Ergonomic wireless mouse with fast response time.",
+      "price": "25.99"
+    },
+    {
+      "id": "2",
+      "name": "Mechanical Keyboard",
+      "description": "RGB mechanical keyboard with customizable keys.",
+      "price": "79.99"
+    },
+    {
+      "id": "3",
+      "name": "Gaming Monitor",
+      "description": "27-inch gaming monitor with 144Hz refresh rate.",
+      "price": "299.99"
+    },
+    {
+      "id": "4",
+      "name": "USB-C Hub",
+      "description": "Multi-port USB-C hub with HDMI and Ethernet.",
+      "price": "45.50"
+    },
+    {
+      "id": "5",
+      "name": "Bluetooth Headphones",
+      "description": "Noise-canceling over-ear Bluetooth headphones.",
+      "price": "120.00"
+    },
+    {
+      "id": "d19c",
+      "name": "asd",
+      "description": "asd",
+      "price": ""
+    },
+    {
+      "id": "8c58",
+      "name": "asdwwwwwwwwwwwwwwwwwwwwwwwww",
+      "description": "asdwwww",
+      "price": ""
+    },
+    {
+      "id": "81bd",
+      "name": "w",
+      "description": "w",
+      "price": ""
+    },
+    {
+      "id": "ad77",
+      "name": "",
+      "description": "",
+      "price": ""
+    }
+  ],
+  "brands": [
+    {
+      "id": "1",
+      "name": "Apple"
+    },
+    {
+      "id": "2",
+      "name": "Samsung"
+    },
+    {
+      "id": "3",
+      "name": "Google"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "mobileId": 1,
+      "user": "John Doe",
+      "rating": 5,
+      "comment": "Amazing performance and build quality!"
+    },
+    {
+      "id": "2",
+      "mobileId": 2,
+      "user": "Jane Smith",
+      "rating": 4,
+      "comment": "Great phone, though a bit pricey."
+    },
+    {
+      "id": "3",
+      "mobileId": 3,
+      "user": "Alice Johnson",
+      "rating": 4,
+      "comment": "Clean interface and excellent camera performance."
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "displayName": "admin admin",
+      "username": "admin",
+      "password": "admin",
+      "email": "admin@admin.com"
+    },
+    {
+      "id": "8335",
+      "username": "admin",
+      "password": "admin",
+      "displayName": "admin admin",
+      "email": "admin@ "
+    },
+    {
+      "id": "a860",
+      "username": "",
+      "password": ""
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+a {
+  text-decoration: none !important;
+}
+.sidebar {
+  position: fixed;
+  box-shadow: 0px 10px 60px 0px rgba(142, 154, 160, 0.15);
+  background-color: rgb(81, 75, 75);
+  display: flex;
+  // align-items: center;
+  justify-content: space-between;
+  .content {
+    display: flex;
+    align-items: flex-start;
+  }
+}

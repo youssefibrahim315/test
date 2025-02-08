@@ -1,0 +1,27 @@
+<div class="container-fluid background">
+  <div class="row">
+    <div class="col-6 d-none p-0 d-lg-block full-img-container">
+      <img src="side.jpg" desc="logo">
+    </div>
+    <div class=" col-4 p-5 mt-5 d-flex align-items-center justify-content-center">
+      <div class="row">
+        <div class="col-12">
+          <div width="50" height="50" color="red"></div>
+        </div>
+        <div class="col-12">
+           <form [formGroup]="form" class="d-flex flex-column">
+            <app-input-text class="w-100" type="text" formControlName="username"
+              placeholder="Email"></app-input-text>
+            <app-input-text formControlName="password" type="password"
+              [placeholder]="'Enter your password'" />
+
+            <button class="btn btn-block btn-primary" (click)="submit()">
+              {{ "Login" }}
+            </button>
+            </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

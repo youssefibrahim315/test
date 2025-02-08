@@ -1,0 +1,11 @@
+<div class="container-fluid">
+  <div class="row ">
+    <div class="col d-flex flex-row align-items-center justify-content-start "> 
+      {{(profile$ |async)|json}}
+    </div>
+    <div class="col d-flex flex-row align-items-center justify-content-end ">
+      <app-button icon="logout" (click)="logout()" label="logout"></app-button>
+    </div>
+  </div>
+
+</div>

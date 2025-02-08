@@ -1,0 +1,13 @@
+  <input
+    *ngIf="!isTextArea"
+    [type]="type"
+    [formControl]="inputControl"
+    [disabled]="disabled"
+    [readonly]="disabled"
+    [placeholder]="placeholder | titlecase"
+    (focus)="markAsTouched()"
+    (input)="onChange($any($event.target).value)"
+    [id]="id"
+    (keyup)="onKeyup($event)"
+  />
+    

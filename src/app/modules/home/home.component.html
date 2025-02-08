@@ -1,0 +1,37 @@
+<div class="row">
+  <div class="col-12">
+    <h1 class="root">{{ "Home" }}</h1>
+  </div>
+</div>
+<div class="d-flex m-2 justify-content-between gap-2">
+  <div class="d-flex gap-2">
+    <app-button icon="create" (click)="open('dialog')" label="Create"></app-button>
+  </div>
+</div>
+<div class="d-flex gap-3 align-items-center justify-content-center" *ngIf="data$ | async as vm">
+  <app-table [data]="vm.data"></app-table>
+</div>
+
+
+<kendo-dialog
+title="Please confirm"
+*ngIf="dialogOpened"
+(close)="close('dialog')"
+[minWidth]="250"
+[width]="450"
+>
+<form [formGroup]="form" class="d-flex flex-column">
+  <app-input-text class="w-100" type="text" formControlName="name"
+    placeholder="Email"></app-input-text>
+  <app-input-text class="w-100" formControlName="description" type="text"
+    [placeholder]="'text'" />
+    <app-input-text class="w-100" formControlName="description" type="text"
+    [placeholder]="'text'" />
+  </form>
+<kendo-dialog-actions>
+  <button kendoButton (click)="action('no')">No</button>
+  <button kendoButton (click)="action('yes')" themeColor="primary">
+    Yes
+  </button>
+</kendo-dialog-actions>
+</kendo-dialog>
