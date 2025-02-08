@@ -10,9 +10,9 @@ Implement UI components with Kendo UI.
 
 ## Use Bootstrap for responsive design.
 ## Use NGRX Store.
+## Use json-server
 ## Use ControlValueAccessor Enhanced performance
 ## Follow Angular best practices for modular development.
-
 
 🚀 Performance
 
@@ -29,6 +29,9 @@ Implemented feature modules with lazy loading.
 Reduced initial load time by loading modules on demand.
 
 📂 Project Setup
+To install server
+
+json-server --watch data/db.json
 
 To install dependencies and run the project:
 
